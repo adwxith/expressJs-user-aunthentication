@@ -102,7 +102,8 @@ Before you begin, ensure you have met the following requirements:
 4. Start the application:
 
    ```bash
-   npm start
+   npm index.js
+   
    ```
 
    This will run your application with the basic configuration.
