@@ -152,9 +152,6 @@ To ensure data integrity and security, it's essential to create your database ta
 
    Replace `your-db-name` with your desired database name.
 
-I apologize for the formatting issue. Here's the corrected section for creating the `users` table with the SQL query:
-
-```markdown
 ## Creating Tables with Correct Constraints
 
 To ensure data integrity and security, it's essential to create your database tables with the correct constraints. Follow these steps to create the necessary tables with appropriate constraints:
