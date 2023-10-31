@@ -65,7 +65,13 @@ Before you begin, ensure you have met the following requirements:
 
    Replace `your-db-host`, `your-db-user`, `your-db-password`, and `your-db-name` with your actual database information. Ensure this file is not committed to version control for security.
 
-5. Start the application with `node`:
+5. Add '.env' to index.js
+  copy this in index.js file
+   ```
+   require("dotenv").config()
+   ```
+
+6. Start the application with `node`:
 
    ```bash
    node index.js
