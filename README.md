@@ -1,6 +1,4 @@
-Certainly! Here's the complete `readme.md` with the new section about creating tables with correct constraints added:
 
-```markdown
 # User Authentication System
 
 ## Table of Contents
