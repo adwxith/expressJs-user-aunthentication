@@ -152,18 +152,36 @@ To ensure data integrity and security, it's essential to create your database ta
 
    Replace `your-db-name` with your desired database name.
 
+I apologize for the formatting issue. Here's the corrected section for creating the `users` table with the SQL query:
+
+```markdown
+## Creating Tables with Correct Constraints
+
+To ensure data integrity and security, it's essential to create your database tables with the correct constraints. Follow these steps to create the necessary tables with appropriate constraints:
+
+1. Open your MySQL database management tool (e.g., phpMyAdmin).
+
+2. Create a new database for your application if you haven't already. You can use a command like this in your MySQL client to create a new database:
+
+   ```sql
+   CREATE DATABASE your-db-name;
+   ```
+
+   Replace `your-db-name` with your desired database name.
+
 3. Once you have your database, create the necessary tables. In your Node.js application code, you can execute SQL queries to create tables. For example, you can create a `users` table for your authentication system like this:
 
    ```sql
-  CREATE TABLE users (
-  id INT AUTO_INCREMENT PRIMARY KEY,
-  username VARCHAR(255) NOT NULL,
-  password VARCHAR(255) NOT NULL
-);
-
+   CREATE TABLE users (
+     id INT AUTO_INCREMENT PRIMARY KEY,
+     username VARCHAR(255) NOT NULL,
+     password VARCHAR(255) NOT NULL
+   );
    ```
 
-   This SQL query creates a `users` table with constraints such as a primary key, not-null fields, and timestamps for
+   This SQL query creates a `users` table with constraints such as a primary key, not-null fields, and timestamps for data integrity and security.
+```
+
 
 ## Usage
 
@@ -176,9 +194,13 @@ To ensure data integrity and security, it's essential to create your database ta
 Contributions are welcome! Here's how you can contribute:
 
 1. Fork the project.
+
 2. Create your feature branch: `git checkout -b feature-name`.
-3. Commit your changes: `git commit -m 'Add some feature'`.
-4. Push to the branch: `git push origin feature-name`.
+
+3. Commit your changes: `git commit -m 'Add some feature'.
+
+4. Push to the branch: `git push origin feature-name'.
+
 5. Create a new Pull Request.
 
 ## License
@@ -186,4 +208,4 @@ Contributions are welcome! Here's how you can contribute:
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ```
 
-This `readme.md` covers both scenarios: one with secure configuration using a `.env` file for sensitive data and the other with a basic configuration directly in the code. It also includes the necessary instructions for installing `nodemon` and `dotenv` when using the `.env` file.
+This updated `readme.md` provides a well-structured guide for setting up the user authentication system, whether using a secure `.env` file or a basic configuration. It also includes instructions for creating tables with the correct constraints for data integrity and security.
