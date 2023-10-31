@@ -65,10 +65,10 @@ Before you begin, ensure you have met the following requirements:
 
    Replace `your-db-host`, `your-db-user`, `your-db-password`, and `your-db-name` with your actual database information. Ensure this file is not committed to version control for security.
 
-5. Start the application with `nodemon`:
+5. Start the application with `node`:
 
    ```bash
-   npm run dev
+   node index.js
    ```
 
    This will run your application with the secure configuration and automatic code reloading.
