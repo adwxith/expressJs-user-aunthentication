@@ -65,11 +65,12 @@ Before you begin, ensure you have met the following requirements:
 
    Replace `your-db-host`, `your-db-user`, `your-db-password`, and `your-db-name` with your actual database information. Ensure this file is not committed to version control for security.
 
-5. Add '.env' to index.js
-  copy this in index.js file
+5. Add '.env' to index.js:
+  
    ```
    require("dotenv").config()
    ```
+   copy this to index.js file
 
 6. Start the application with `node`:
 
