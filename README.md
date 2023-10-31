@@ -38,7 +38,7 @@ Before you begin, ensure you have met the following requirements:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/your-repo.git
+   git clone https://github.com/adwxith/expressJs-user-aunthentication.git
    ```
 
 2. Install the project dependencies:
@@ -85,7 +85,7 @@ Before you begin, ensure you have met the following requirements:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/your-repo.git
+   git clone https://github.com/adwxith/expressJs-user-aunthentication.git
    ```
 
 2. Install the project dependencies:
@@ -95,7 +95,7 @@ Before you begin, ensure you have met the following requirements:
    npm install
    ```
 
-3. Adjust the server configuration in the `server.js` file. Update the following details directly in the code:
+3. Adjust the server configuration in the `index.js` file. Update the following details directly in the code:
 
    ```javascript
    const db = mysql.createConnection({
