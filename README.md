@@ -65,14 +65,37 @@ Before you begin, ensure you have met the following requirements:
 
    Replace `your-db-host`, `your-db-user`, `your-db-password`, and `your-db-name` with your actual database information. Ensure this file is not committed to version control for security.
 
-5. Add '.env' to index.js:
+ 5. To enhance the security of your MySQL database, it's recommended to create a new user with limited privileges. Follow these steps to create the new user:
+
+   1. Open your MySQL database management tool (e.g., phpMyAdmin).
+
+   2. Click on the "Administration" tab on the top left.
+
+   3. Navigate to "Users and Privileges."
+
+   4. Click the "(ADD ACCOUNT)" button on the bottom.
+
+   5. Fill in the user details as follows:
+      - **Login Name:** newuser
+      - **Authentication Type:** Standard
+      - **Limit to Hosts Matching:** localhost
+      - **Password:** password1#
+
+   6. Under the "Global Privileges" or "Database-Specific Privileges" section, assign limited privileges to this user, such as:
+      - SELECT
+      - INSERT
+      - DELETE
+
+   7. Ensure you do not assign Database Administrator privileges to the new user.
+
+6. Add '.env' to index.js:
   
    ```
    require("dotenv").config()
    ```
    copy this to index.js file
 
-6. Start the application with `node`:
+7. Start the application with `node`:
 
    ```bash
    node index.js
