@@ -204,4 +204,4 @@ Contributions are welcome! Here's how you can contribute:
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 
-This updated `readme.md` provides a well-structured guide for setting up the user authentication system, whether using a secure `.env` file or a basic configuration. It also includes instructions for creating tables with the correct constraints for data integrity and security.
+
