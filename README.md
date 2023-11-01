@@ -138,19 +138,6 @@ Before you begin, ensure you have met the following requirements:
 
    This will run your application with the basic configuration.
 
-## Creating Tables with Correct Constraints
-
-To ensure data integrity and security, it's essential to create your database tables with the correct constraints. Follow these steps to create the necessary tables with appropriate constraints:
-
-1. Open your MySQL database management tool (e.g., phpMyAdmin).
-
-2. Create a new database for your application if you haven't already. You can use a command like this in your MySQL client to create a new database:
-
-   ```sql
-   CREATE DATABASE your-db-name;
-   ```
-
-   Replace `your-db-name` with your desired database name.
 
 ## Creating Tables with Correct Constraints
 
