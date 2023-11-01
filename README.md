@@ -156,14 +156,14 @@ To ensure data integrity and security, it's essential to create your database ta
 3. Once you have your database, create the necessary tables. In your Node.js application code, you can execute SQL queries to create tables. For example, you can create a `users` table for your authentication system like this:
 
    ```sql
-   CREATE TABLE users (
+   CREATE TABLE auth (
      id INT AUTO_INCREMENT PRIMARY KEY,
      username VARCHAR(255) NOT NULL,
      password VARCHAR(255) NOT NULL
    );
    ```
 
-   This SQL query creates a `users` table with constraints such as a primary key, not-null fields, and timestamps for data integrity and security.
+   This SQL query creates a `auth` table with constraints such as a primary key, not-null fields, and timestamps for data integrity and security.
 
 
 ## Usage
